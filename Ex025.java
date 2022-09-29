@@ -2,9 +2,7 @@ import java.util.Scanner;
 
 public class Ex025 {
    
-   /**
-    * @param args
-    */
+  
    public static void main(String[] args) {
       try(Scanner sc = new Scanner(System.in)) {
          int n, s = 0;
