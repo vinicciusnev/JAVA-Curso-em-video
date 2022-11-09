@@ -1,28 +1,27 @@
 import java.util.Scanner;
 
 public class Ex025 {
-   
-  
+
    public static void main(String[] args) {
-      try(Scanner sc = new Scanner(System.in)) {
+      try (Scanner sc = new Scanner(System.in)) {
          int n, s = 0;
          int total = -1;
          int impar = 0;
          int par = -1;
          int maisdecem = 0;
          float media;
-         
+
          do {
             System.out.print("Informe um numero: (valor 0 interrompe) ");
             n = sc.nextInt();
-            s +=n;
+            s += n;
             total++;
-            if (n%2==0){
+            if (n % 2 == 0) {
                par++;
             } else {
                impar++;
             }
-            if (n>100){
+            if (n > 100) {
                maisdecem++;
             }
          } while (n != 0);

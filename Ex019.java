@@ -1,11 +1,9 @@
 import java.util.Scanner;
 
-
-
 public class Ex019 {
-   
+
    public static void main(String[] args) {
-      try(Scanner t = new Scanner(System.in)) {
+      try (Scanner t = new Scanner(System.in)) {
          System.out.print("Quantas pernas ? ");
          int pernas = t.nextInt();
          String tipo;
@@ -22,8 +20,8 @@ public class Ex019 {
                break;
             case 4:
                tipo = "Quadrúpede";
-               break;               
-            case 6, 8:
+               break;
+            case 6:
                tipo = "Aranha";
                break;
             default:
